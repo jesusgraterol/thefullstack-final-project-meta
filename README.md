@@ -4,7 +4,7 @@ This repository serves as my personal submission for the Final Project in [The F
 
 
 
-![Postman Workspace](./workspace.png)
+![Little Lemon](./littlelemon.png)
 
 
 ## Project Structure
@@ -19,6 +19,12 @@ thefullstack-final-project-meta
     │    │       ├───urls.py
     │    │       └───wsgi.py
     │    ├───restaurant/
+    │    │       ├───migrations/
+    |    |       |    └───...
+    │    │       ├───static/
+    |    |       |    └───...
+    │    │       ├───templates/
+    |    |       |    └───...
     │    │       ├───admin.py
     │    │       ├───apps.py
     │    │       ├───forms.py
@@ -79,28 +85,18 @@ Navigate to the **Book page** and **Reservations page** and perform the form act
 
 
 
-## Endpoints
-
-@TODO
-
-[Postman Workspace]()
-
-
-
-
-
 ## Grading Criteria
 
-1. [ ] Is the app added to the installed apps list in the settings file?
-2. [ ] Is the database configuration updated inside the settings file?
-3. [ ] Were migrations performed?
-4. [ ] Are there three fields in the booking form: First name, Reservation date and Reservation slot?
+1. [x] Is the app added to the installed apps list in the settings file?
+2. [x] Is the database configuration updated inside the settings file?
+3. [x] Were migrations performed?
+4. [x] Are there three fields in the booking form: First name, Reservation date and Reservation slot?
 5. [ ] Does a date selector open up when you click on the reservation date field on the booking form?
-6. [ ] Are all the bookings available as JSON data on the reservations page?
-7. [ ] Is duplicate booking prohibited on a specific date if the time is already booked?
-8. [ ] Does changing the date refresh the booking data?
-9. [ ] Is a duplicate booking on a specific date and time unavailable if the slot is already booked? 
-10. [ ] Can you display bookings for a specific date using the API?
-11. [ ] If there is no booking, does a No Booking message show for that date?
-12. [ ] Was fetch API used to retrieve data from the API?
-13. [ ] Is the current date automatically selected when you open the booking form?
+6. [x] Are all the bookings available as JSON data on the reservations page?
+7. [x] Is duplicate booking prohibited on a specific date if the time is already booked?
+8. [x] Does changing the date refresh the booking data?
+9. [x] Is a duplicate booking on a specific date and time unavailable if the slot is already booked? 
+10. [x] Can you display bookings for a specific date using the API?
+11. [x] If there is no booking, does a No Booking message show for that date?
+12. [x] Was fetch API used to retrieve data from the API?
+13. [x] Is the current date automatically selected when you open the booking form?

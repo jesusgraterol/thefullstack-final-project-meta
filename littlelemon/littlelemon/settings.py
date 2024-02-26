@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
     'restaurant',
 ]
 
@@ -56,7 +55,8 @@ ROOT_URLCONF = 'littlelemon.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # The settings for templates updated for the Graded assessment
+        'DIRS': ['restaurant/templates' ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
